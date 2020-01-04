@@ -18,6 +18,7 @@ class UsersController < ApplicationController
 
   def show
     @user=User.find(params[:id])
+    @microposts=@user.microposts.paginate(page: params[:page])
   end
 
 
@@ -57,6 +58,10 @@ def destroy
   flash[:success]="User Deleted"
   redirect_to users_url
 end
+
+
+
+
 
 
 
