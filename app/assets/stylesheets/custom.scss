@@ -108,6 +108,23 @@ footer ul li {
   float: left;
   margin-left: 15px;
 }
+  .social{
+  font-size: 20px;
+  margin-left: 20px;
+  position: relative;
+  border-radius: 50%;
+  border: 1px solid rgba(0,0,0,0.5);
+  padding: 5px;
+  background: #3B5998;
+  color:white;
+}
+.fa-facebook{
+  padding: 5px 9px;
+}
+.fa-github{
+  color: black;
+  background-color: white;
+}
 
 
 /* miscellaneous */
