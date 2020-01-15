@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+GETTING STARTED
 
-Things you may want to cover:
+You have to install "rmagick" in your pc, just Google it how to install.
+1. clone the repositery to your desired location.
 
-* Ruby version
+2. open gallery folder (which is present in your desired location where you clone the repo) and open terminal in gallery location.
 
-* System dependencies
+3. write "bundle install" in the terminal.
 
-* Configuration
+4. write "rails db:migrate" in the terminal.
 
-* Database creation
+5. write ("rials server") in the terminal.
 
-* Database initialization
+6. open "http://localhost:3000/" and enjoy.
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+7. feel free to upgrade it according to you.
