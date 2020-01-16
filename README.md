@@ -11,7 +11,7 @@ You have to install "rmagick" in your pc, just Google it how to install.
 
 4. write "rails db:migrate" in the terminal.
 
-5. write ("rials server") in the terminal.
+5. write ("rails server") in the terminal.
 
 6. open "http://localhost:3000/" and enjoy.
 
